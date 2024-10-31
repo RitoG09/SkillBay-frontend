@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.featured {
+  height: 596px;
+  display: flex;
+  justify-content: center;
+  background-color: #fde68a;
+  color: white;
+
+  .container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h1 {
+        font-size: 40px;
+        font-family: "Ubuntu", sans-serif;
+
+        i {
+          font-weight: 700;
+          color: #0e7490;
+          font-family: "Montaga", serif;
+        }
+      }
+
+      .search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 5px;
+
+        .searchInput {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          img {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+          }
+
+          input {
+            border: none;
+            outline: none;
+          }
+        }
+        button {
+          width: 120px;
+          height: 50px;
+          border: none;
+          color: white;
+          background-color: #0e7490;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+      }
+
+      .popular {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          color: #0e7490;
+        }
+
+        button {
+          color: white;
+          background-color: #0e7490;
+          border: 1px solid white;
+          padding: 5px 10px;
+          font-size: 13px;
+          border-radius: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right {
+      height: 100%s;
+
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

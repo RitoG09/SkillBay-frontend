@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.home {
+  .features {
+    background-color: #bae6fd;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+    &.light {
+      background-color: #fef9c3;
+      border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      .item {
+        h1 {
+          color: #0e7490;
+          margin-top: 1px;
+          margin-bottom: 1px;
+          font-size: 30px;
+          font-family: "Montaga", serif;
+        }
+
+        p {
+          margin-bottom: 20px;
+        }
+        .title {
+          font-weight: 900;
+          font-size: 17px !important;
+        }
+        img {
+          width: 100%;
+        }
+
+        button {
+          background-color: #0e7490;
+          color: #fef9c3;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          margin-top: 20px;
+          border: none;
+          width: max-content;
+        }
+      }
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      width: 1300px;
+      gap: 200px;
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        &:first-child {
+          flex: 2;
+        }
+
+        &:last-child {
+          flex: 3;
+        }
+        h1 {
+          font-weight: 600;
+          margin-bottom: 40px;
+          i {
+            font-family: "Montaga", serif;
+          }
+        }
+        p {
+          font-size: 17px;
+          font-weight: 300;
+          color: black;
+          line-height: 25px;
+          letter-spacing: 1px;
+        }
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-weight: 500;
+          font-size: 18px;
+          color: #ca8a04;
+
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        video {
+          width: 720px;
+        }
+      }
+    }
+  }
+}
